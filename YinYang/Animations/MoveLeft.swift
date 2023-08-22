@@ -1,15 +1,27 @@
-//
-//  MoveLeft.swift
-//  YinYang
-//
-//  Created by JACK REEVE on 22/08/23.
-//
-
 import SwiftUI
 
 struct MoveLeft: View {
+    @State private var xOffset: CGFloat =  UIScreen.main.bounds.width + 360   //Initial position
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        Image("yinyangblue")
+            .resizable()
+            .scaledToFit()
+            .frame(width: 1100, height: 1100)
+            .offset(x: xOffset, y: 0)
+            .animation(Animation.linear(duration: 3))
+        
+        
+            .onAppear {
+                moveImage() // Start the animation when the view appears
+            }.edgesIgnoringSafeArea(.all)//
+    }
+    
+    private func moveImage() {
+        withAnimation {
+            xOffset = -1000 // Move the image to the left edge of the screen
+        }
     }
 }
 

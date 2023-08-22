@@ -1,10 +1,3 @@
-//
-//  YinYangUITests.swift
-//  YinYangUITests
-//
-//  Created by JACK REEVE on 22/08/23.
-//
-
 import XCTest
 
 final class YinYangUITests: XCTestCase {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00DAB672A949C1E00AD32CB /* GridRotateAlternate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00DAB662A949C1E00AD32CB /* GridRotateAlternate.swift */; };
+		B00DAB6B2A949CB000AD32CB /* PatternAlternateScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00DAB6A2A949CB000AD32CB /* PatternAlternateScale.swift */; };
 		B0E1FDA32A947EC20054531A /* YinYangApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDA22A947EC20054531A /* YinYangApp.swift */; };
 		B0E1FDA52A947EC20054531A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDA42A947EC20054531A /* ContentView.swift */; };
 		B0E1FDA72A947EC30054531A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E1FDA62A947EC30054531A /* Assets.xcassets */; };
@@ -14,6 +16,18 @@
 		B0E1FDB42A947EC30054531A /* YinYangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDB32A947EC30054531A /* YinYangTests.swift */; };
 		B0E1FDBE2A947EC30054531A /* YinYangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDBD2A947EC30054531A /* YinYangUITests.swift */; };
 		B0E1FDC02A947EC30054531A /* YinYangUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDBF2A947EC30054531A /* YinYangUITestsLaunchTests.swift */; };
+		B0E1FDCE2A94805D0054531A /* TransitionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDCD2A94805D0054531A /* TransitionTest.swift */; };
+		B0E1FDD02A9481720054531A /* PortalYinYang.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDCF2A9481720054531A /* PortalYinYang.swift */; };
+		B0E1FDD22A9481E30054531A /* CombineYinYang.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDD12A9481E30054531A /* CombineYinYang.swift */; };
+		B0E1FDD42A94821E0054531A /* YinYangScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDD32A94821E0054531A /* YinYangScale.swift */; };
+		B0E1FDD62A94825E0054531A /* MoveRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDD52A94825E0054531A /* MoveRight.swift */; };
+		B0E1FDD82A9482E10054531A /* PatternScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDD72A9482E10054531A /* PatternScale.swift */; };
+		B0E1FDDA2A9483200054531A /* MoveLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDD92A9483200054531A /* MoveLeft.swift */; };
+		B0E1FDDC2A9483C60054531A /* OrbitTwoYinYang.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDDB2A9483C60054531A /* OrbitTwoYinYang.swift */; };
+		B0E1FDDE2A9484110054531A /* MoveDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDDD2A9484110054531A /* MoveDown.swift */; };
+		B0E1FDE02A9484760054531A /* GridRotateSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDDF2A9484760054531A /* GridRotateSync.swift */; };
+		B0E1FDE22A9484AE0054531A /* MoveUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDE12A9484AE0054531A /* MoveUp.swift */; };
+		B0E1FDE42A94851A0054531A /* PatternHalfScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1FDE32A94851A0054531A /* PatternHalfScale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B00DAB662A949C1E00AD32CB /* GridRotateAlternate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRotateAlternate.swift; sourceTree = "<group>"; };
+		B00DAB6A2A949CB000AD32CB /* PatternAlternateScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternAlternateScale.swift; sourceTree = "<group>"; };
 		B0E1FD9F2A947EC20054531A /* YinYang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YinYang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E1FDA22A947EC20054531A /* YinYangApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YinYangApp.swift; sourceTree = "<group>"; };
 		B0E1FDA42A947EC20054531A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +60,18 @@
 		B0E1FDB92A947EC30054531A /* YinYangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YinYangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E1FDBD2A947EC30054531A /* YinYangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YinYangUITests.swift; sourceTree = "<group>"; };
 		B0E1FDBF2A947EC30054531A /* YinYangUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YinYangUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0E1FDCD2A94805D0054531A /* TransitionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionTest.swift; sourceTree = "<group>"; };
+		B0E1FDCF2A9481720054531A /* PortalYinYang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalYinYang.swift; sourceTree = "<group>"; };
+		B0E1FDD12A9481E30054531A /* CombineYinYang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineYinYang.swift; sourceTree = "<group>"; };
+		B0E1FDD32A94821E0054531A /* YinYangScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YinYangScale.swift; sourceTree = "<group>"; };
+		B0E1FDD52A94825E0054531A /* MoveRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveRight.swift; sourceTree = "<group>"; };
+		B0E1FDD72A9482E10054531A /* PatternScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternScale.swift; sourceTree = "<group>"; };
+		B0E1FDD92A9483200054531A /* MoveLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveLeft.swift; sourceTree = "<group>"; };
+		B0E1FDDB2A9483C60054531A /* OrbitTwoYinYang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitTwoYinYang.swift; sourceTree = "<group>"; };
+		B0E1FDDD2A9484110054531A /* MoveDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDown.swift; sourceTree = "<group>"; };
+		B0E1FDDF2A9484760054531A /* GridRotateSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRotateSync.swift; sourceTree = "<group>"; };
+		B0E1FDE12A9484AE0054531A /* MoveUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveUp.swift; sourceTree = "<group>"; };
+		B0E1FDE32A94851A0054531A /* PatternHalfScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternHalfScale.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +122,7 @@
 		B0E1FDA12A947EC20054531A /* YinYang */ = {
 			isa = PBXGroup;
 			children = (
+				B0E1FDCC2A9480260054531A /* Animations */,
 				B0E1FDA22A947EC20054531A /* YinYangApp.swift */,
 				B0E1FDA42A947EC20054531A /* ContentView.swift */,
 				B0E1FDA62A947EC30054531A /* Assets.xcassets */,
@@ -125,6 +154,27 @@
 				B0E1FDBF2A947EC30054531A /* YinYangUITestsLaunchTests.swift */,
 			);
 			path = YinYangUITests;
+			sourceTree = "<group>";
+		};
+		B0E1FDCC2A9480260054531A /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B0E1FDCD2A94805D0054531A /* TransitionTest.swift */,
+				B0E1FDCF2A9481720054531A /* PortalYinYang.swift */,
+				B0E1FDD12A9481E30054531A /* CombineYinYang.swift */,
+				B0E1FDD32A94821E0054531A /* YinYangScale.swift */,
+				B0E1FDD52A94825E0054531A /* MoveRight.swift */,
+				B0E1FDD72A9482E10054531A /* PatternScale.swift */,
+				B0E1FDD92A9483200054531A /* MoveLeft.swift */,
+				B0E1FDDB2A9483C60054531A /* OrbitTwoYinYang.swift */,
+				B0E1FDDD2A9484110054531A /* MoveDown.swift */,
+				B0E1FDDF2A9484760054531A /* GridRotateSync.swift */,
+				B0E1FDE12A9484AE0054531A /* MoveUp.swift */,
+				B0E1FDE32A94851A0054531A /* PatternHalfScale.swift */,
+				B00DAB662A949C1E00AD32CB /* GridRotateAlternate.swift */,
+				B00DAB6A2A949CB000AD32CB /* PatternAlternateScale.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +307,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E1FDE42A94851A0054531A /* PatternHalfScale.swift in Sources */,
 				B0E1FDA52A947EC20054531A /* ContentView.swift in Sources */,
 				B0E1FDA32A947EC20054531A /* YinYangApp.swift in Sources */,
+				B0E1FDD42A94821E0054531A /* YinYangScale.swift in Sources */,
+				B0E1FDD82A9482E10054531A /* PatternScale.swift in Sources */,
+				B0E1FDCE2A94805D0054531A /* TransitionTest.swift in Sources */,
+				B00DAB672A949C1E00AD32CB /* GridRotateAlternate.swift in Sources */,
+				B0E1FDE02A9484760054531A /* GridRotateSync.swift in Sources */,
+				B0E1FDD22A9481E30054531A /* CombineYinYang.swift in Sources */,
+				B0E1FDD02A9481720054531A /* PortalYinYang.swift in Sources */,
+				B0E1FDE22A9484AE0054531A /* MoveUp.swift in Sources */,
+				B0E1FDDA2A9483200054531A /* MoveLeft.swift in Sources */,
+				B00DAB6B2A949CB000AD32CB /* PatternAlternateScale.swift in Sources */,
+				B0E1FDDC2A9483C60054531A /* OrbitTwoYinYang.swift in Sources */,
+				B0E1FDDE2A9484110054531A /* MoveDown.swift in Sources */,
+				B0E1FDD62A94825E0054531A /* MoveRight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

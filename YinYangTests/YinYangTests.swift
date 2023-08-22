@@ -1,10 +1,3 @@
-//
-//  YinYangTests.swift
-//  YinYangTests
-//
-//  Created by JACK REEVE on 22/08/23.
-//
-
 import XCTest
 @testable import YinYang
 
